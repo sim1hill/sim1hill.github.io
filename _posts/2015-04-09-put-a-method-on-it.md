@@ -7,7 +7,7 @@ comments: true
 ---
 
 <figure>
-  <img src="images/bird_photo.jpg" alt="portlandia put a bird on it"></a>
+  <img src="/images/bird_photo.jpg" alt="portlandia put a bird on it"></a>
   <figcaption>From <em>Portlandia</em> Season 1</figcaption>
 </figure>
 

@@ -2,12 +2,12 @@
 layout: post
 title: "Put a Method On It"
 excerpt: "My first post!"
-tags: [sample post, images, test]
+tags: [first post, Ruby, methods]
 comments: true
 ---
 
 <figure>
-  <img src="bird_photo.jpg"></a>
+  <img src="images/bird_photo.jpg"></a>
   <figcaption>From <em>Portlandia</em> Season 1</figcaption>
 </figure>
 
@@ -25,7 +25,10 @@ But here's where things get fun.
 And by fun frustrating to the point where if you were a sim the little diamond above your head would turn red and maybe even shatter into a million pieces, but you got something that's actually useful. And by useful I mean you can actually do something with it. I mean more than tinker around in your terminal puts-ing simple strings or operations like "Hello World" and 1+1.
 
 
-Take the methods select and collect, each's more sophisticated siblings. Don't get me wrong, I love a good each. I'll each through your array or hash all.day.long. Here's why. I get each. I know where each is coming from and I'm less likely to fall into an infinite loop. I understand what each will give back to me. And that it will change all of the things I shove into it in whatever way I tell the block to do it. I'm a true each-ist at heart. For now, until I get really good at something else and find a better way.
+Take the methods select and collect, each's more sophisticated siblings. Don't get me wrong, I love a good each. I'll each through your array or hash all.day.long. Here's why. I get each. I know where each is coming from and I'm less likely to fall into an infinite loop. 
+![Smithsonian Image]({{ site.url }}/images/meme_photo.jpg)
+{: .image-pull-right}
+I understand what each will give back to me. And that it will change all of the things I shove into it in whatever way I tell the block to do it. I'm a true each-ist at heart. For now, until I get really good at something else and find a better way.
 
 
 Everything moves really quickly at Flatiron. Things that might as well have been quantum physics to me just four days ago, now make much more sense. So fast that when I actually present this blog post it will probably already seem simplistic (and I wrote it the morning of). So while I came in having a good understanding of each and the things that it could do for me, others like collect and select were more elusive. Like Christian Grey of the infamous 50 Shades of Grey series, it's not until you get close and intimate with them that you find out they have a hidden sex chamber in their apartment. Or in collect and selects' case, that they return array values and not just a number or a string. Eventually you each enough times that you realize you need something more than just Joe Schmoe. You want a billionaire publishing magnate with smoldering eyes and a dark past.

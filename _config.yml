@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            SimCodes
 locale:           en_US
 url:              
 
@@ -26,8 +26,8 @@ kramdown:
 
 # Site owner
 owner: Simone Hill
-  name: Simone Hill
-  avatar: bio-photo.jpg
+  name: 
+  avatar: simone_with_elephant.jpg
   bio: I used to just write. Now I code and write. Let's see how this goes.
   email: simone.hill@flatironschool.com
   disqus-shortname: 

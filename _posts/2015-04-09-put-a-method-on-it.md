@@ -7,7 +7,7 @@ comments: true
 ---
 
 <figure>
-  <img src="images/bird_photo.jpg"></a>
+  <img src="images/bird_photo.jpg" alt="portlandia put a bird on it"></a>
   <figcaption>From <em>Portlandia</em> Season 1</figcaption>
 </figure>
 
@@ -28,6 +28,7 @@ And by fun frustrating to the point where if you were a sim the little diamond a
 Take the methods select and collect, each's more sophisticated siblings. Don't get me wrong, I love a good each. I'll each through your array or hash all.day.long. Here's why. I get each. I know where each is coming from and I'm less likely to fall into an infinite loop. 
 ![Smithsonian Image]({{ site.url }}/images/meme_photo.jpg)
 {: .image-pull-right}
+
 I understand what each will give back to me. And that it will change all of the things I shove into it in whatever way I tell the block to do it. I'm a true each-ist at heart. For now, until I get really good at something else and find a better way.
 
 

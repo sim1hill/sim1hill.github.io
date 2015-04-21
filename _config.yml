@@ -25,7 +25,7 @@ kramdown:
 
 
 # Site owner
-owner: Simone Hill
+owner:
   name: Simone Hill
   avatar: simone_with_elephant.jpg
   bio: I used to just write. Now I code and write. Let's see how this goes.

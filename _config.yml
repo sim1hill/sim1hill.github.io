@@ -26,12 +26,12 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Simone Hill
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
+  bio: I used to just write. Now I code and write. Let's see how this goes.
+  email: simone.hill@flatironschool.com
   disqus-shortname: 
-  twitter: #username
+  twitter: @sim1hill
   facebook: #username
   google:
     plus: #username
@@ -40,11 +40,11 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
+  github: @sim1hill
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   xing: #username
-  instagram: #username
+  instagram: @sim1hill
   lastfm: #username
   tumblr: #username
   pinterest: #username

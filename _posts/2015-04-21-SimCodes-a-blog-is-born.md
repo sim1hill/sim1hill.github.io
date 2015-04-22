@@ -4,12 +4,10 @@ title: A Blog Is Born
 excerpt: The practical implications of ERB templating for creating a blog template.
 tags: [first post, Ruby, methods]
 comments: true
-image:
-  feature: laptop_photo.jpg
-  credit: Simone Hill
 ---
-
-##The Backstory
+<figure>
+ <img src="/images/laptop_photo.jpg" alt="laptop with blue background">
+</figure>
 
 I've attempted blogging many, many times before this. And it just never stuck. Inevitably I'd ditch the pre-canned templates and seamless CMS interfaces of Wordpress, Blogger, Squarespace and the like. When we were told we'd have to blog as part of our participation in the Web Dev class at the Flatiron School I was prepared to make another throwaway blog with a pithy name that I'd cringe at two years from now. When I wrote my first post, which was really just me flexing my skills writing about a brand new topic (coding), I was determined to practice my front-end skills and customize my own without relying on a CMS. 
 
@@ -19,7 +17,7 @@ That's when I stumbled across this template called Minimal Mistakes, I downloade
 
 {% gist sim1hill/d5dfca459ec02cdc2432 %}
 
-Look familiar? That's right...this blog template was created with ERB 
+Look familiar? That's right...this blog template was created with ERB (aka Embedded Ruby).
 
 Despite being just a series of files with styles and templates and photos, the file structure is earily similar to a CMS. I made my discovery on the same day that we started learning ERB, which means that luckily I was able to make some sense of what this is. It got me thinking about ERB and the practical applications of being able to make dynamic webpages and why it's great for creating things like easy to use blog templates. 
 

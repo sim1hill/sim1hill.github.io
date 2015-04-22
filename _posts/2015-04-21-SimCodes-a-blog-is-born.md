@@ -17,7 +17,7 @@ As it turns out I still have a long, long way to go with that. So when I realize
 
 That's when I stumbled across this template called Minimal Mistakes, I downloaded the file and committed it to my github.io profile. From my minimal experience with front-end basics I was familiar with index.html pages and css stylesheets and am familiar enough with javascript so when I opened the folders I was suprised to find code that looked like this: 
 
-{% gist sim1hill/d5dfca459ec02cdc2432.js %}
+{% gist sim1hill/d5dfca459ec02cdc2432 %}
 
 Look familiar? That's right...this blog template was created with ERB 
 

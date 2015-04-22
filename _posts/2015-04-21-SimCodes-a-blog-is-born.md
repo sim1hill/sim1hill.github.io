@@ -21,7 +21,7 @@ Look familiar? That's right...this blog template was created with ERB (aka Embed
 
 {% gist sim1hill/1e4cc342917739c56b2f %}
 
-That's basically all I needed to populate a ton of fileds across my blog. 
+That's basically all I needed to populate a ton of files across my blog. 
 
 Despite being just a series of files with styles, templates, photos and files with a handfull of different file types when I started digging in I realized that it is eerily similar to using a CMS (more on that in a bit!). I made my discovery on the same day that we started learning ERB, which means that luckily I was able to make some sense of what this is and learn a bit more about why ERB makes Ruby so powerful. It got me thinking about ERB and the practical applications of being able to make dynamic webpages and why it's great for creating things like easy to use blog templates. 
 
@@ -29,5 +29,14 @@ Despite being just a series of files with styles, templates, photos and files wi
 
 I feel like I'm using a lot of jargon. I hate when people do that and assume that everyone knows what you're talking about so I'll clear some things up.  
 
-CMS: This stands for Content Management System. If you've ever written a blog then you've probably used one, but basically it's an application that makes it easy to manage and publish content (words, photos, video, whatever) with an interface that's intuitive and familiar for non-coders. It will usually feature rich text editing features that are similar to using Word or another local text editor. 
+**CMS:** This stands for Content Management System. If you've ever written a blog then you've probably used one, but basically it's an application that makes it easy to manage and publish content (words, product information, photos, video, whatever) with an interface that's intuitive and familiar for non-coders. It will usually feature rich text editing features that are similar to using Word or another local text editor. 
+
+**ERB:** I already gave away what this one means above (it stands for Embedded RuBy in case you missed it), but if, like me, you're new to this whole coding thing just knowing what the words are isn't very helpful. On the simplest level ERB allows you to put Ruby code inside of HTML code. That means you can have access to all of the infinite possibilities available to you through Ruby logic and use it to manipulate what a webpage looks like. 
+
+###But Seriously, What Is This Sorcery?!
+
+<figure>
+ <img src="/images/monty-python.gif" alt="monty python and the holy grail witch gif">
+</figure>
+
 

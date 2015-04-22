@@ -31,12 +31,25 @@ I feel like I'm using a lot of jargon. I hate when people do that and assume tha
 
 **CMS:** This stands for Content Management System. If you've ever written a blog then you've probably used one, but basically it's an application that makes it easy to manage and publish content (words, product information, photos, video, whatever) with an interface that's intuitive and familiar for non-coders. It will usually feature rich text editing features that are similar to using Word or another local text editor. 
 
-**ERB:** I already gave away what this one means above (it stands for Embedded RuBy in case you missed it), but if, like me, you're new to this whole coding thing just knowing what the words are isn't very helpful. On the simplest level ERB allows you to put Ruby code inside of HTML code. That means you can have access to all of the infinite possibilities available to you through Ruby logic and use it to manipulate what a webpage looks like. 
+**ERB:** I already gave away what this one means above (it stands for Embedded RuBy in case you missed it), but if, like me, you're new to this whole coding thing just knowing what the words are isn't very helpful. On the simplest level ERB allows you to put Ruby code inside of HTML code. That means you can have access to all of the infinite possibilities available to you through Ruby logic and use it to manipulate what a webpage looks like. This power isn't just limited to HTML -- Ruby can cross over isnto other languages and apply it's functionality there -- for C it's called eruby or for  Java it's called erubis.
 
-###But Seriously, What Is This Sorcery?!
-
+###Should I Fear This Sorcery?!
+<figure>
+ <img src="/images/monty-python-2.gif" alt="monty python and the holy grail witch gif">
+</figure>
+<figure>
+ <img src="/images/monty-python-3.gif" alt="monty python and the holy grail witch gif">
+</figure>
 <figure>
  <img src="/images/monty-python.gif" alt="monty python and the holy grail witch gif">
 </figure>
+
+Reasons you may want to dynamically manipulate a webpage behind the scenes.
+
+**Flow control:** HTML and CSS don't really have any conditions or logic attached to them, they're languages designed for formatting. The power of Ruby is it's abstraction, so instead of hardcoding in the dek or tagline for each and every post, ERB creates a homepage that will give a sneek peak snippet of the five most recent posts no matter what they are or what post they come from rather than having to set it manually.  
+
+**Versatility:** Object orientation. There. I said it. If every time someone mentions the word "abstract" in relation to Ruby your eyes glaze over and your mind becomes an impregnable fortress unable to take in any more information then take my metaphorical hand and we'll walk through this together. Each post is a class, all instances of post classes have attributes like an author, title and a URL. These posts are pages (like this one!) literally exist in your site, and a model of them also exists behind the scenes where it works it's Ruby magic. All of the data within this page is populating one instance of the post class. And all of my other posts can do the same. Then each post can be called on individually wherever throughout the site using ERB embedded into the page itself. The beauty is that if you change the instance of that class in one place and it changes everywhere!. 
+
+TL;DR It's not magic. In fact, you're doing all the work yourself, but instead of doing it a lot of times, you're doing all the work up front to create pages and model behavior for elements of a site so that later on you have less work to do. 
 
 

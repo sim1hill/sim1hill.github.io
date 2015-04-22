@@ -44,12 +44,16 @@ I feel like I'm using a lot of jargon. I hate when people do that and assume tha
  <img src="/images/monty-python.gif" alt="monty python and the holy grail witch gif">
 </figure>
 
-Reasons you may want to dynamically manipulate a webpage behind the scenes.
+There are actually some really simple, practical reasons you'd want to use ERB in web apps. 
 
 **Flow control:** HTML and CSS don't really have any conditions or logic attached to them, they're languages designed for formatting. The power of Ruby is it's abstraction, so instead of hardcoding in the dek or tagline for each and every post, ERB creates a homepage that will give a sneek peak snippet of the five most recent posts no matter what they are or what post they come from rather than having to set it manually.  
 
-**Versatility:** Object orientation. There. I said it. If every time someone mentions the word "abstract" in relation to Ruby your eyes glaze over and your mind becomes an impregnable fortress unable to take in any more information then take my metaphorical hand and we'll walk through this together. Each post is a class, all instances of post classes have attributes like an author, title and a URL. These posts are pages (like this one!) literally exist in your site, and a model of them also exists behind the scenes where it works it's Ruby magic. All of the data within this page is populating one instance of the post class. And all of my other posts can do the same. Then each post can be called on individually wherever throughout the site using ERB embedded into the page itself. The beauty is that if you change the instance of that class in one place and it changes everywhere!. 
+**Versatility:** Object orientation. There. I said it. If every time someone mentions the word "abstract" in relation to Ruby your eyes glaze over and your mind becomes an impregnable fortress unable to take in any more information then take my metaphorical hand and we'll walk through this together. 
+
+Each post is a class, all instances of post classes have attributes like an author, title and a URL. These posts are pages (like this one!) literally exist in your site, and a model of them also exists behind the scenes where it works it's Ruby magic. All of the data within this page is populating one instance of the post class. And all of my other posts can do the same. Then each post can be called on individually wherever throughout the site using ERB embedded into the page itself. The beauty is that if you change the instance of that class in one place and it changes everywhere!. 
 
 TL;DR It's not magic. In fact, you're doing all the work yourself, but instead of doing it a lot of times, you're doing all the work up front to create pages and model behavior for elements of a site so that later on you have less work to do. 
+
+
 
 

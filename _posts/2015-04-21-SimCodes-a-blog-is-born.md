@@ -17,11 +17,13 @@ That's when I stumbled across this template called Minimal Mistakes, I downloade
 
 {% gist sim1hill/d5dfca459ec02cdc2432 %}
 
-Look familiar? That's right...this blog template was created with ERB (aka Embedded Ruby). That snippet above? It's basically my blog homepage, minus the header and footer. In fact this little bit of code creates a page with endless possibilities (no lengthy conditionals necessary!) and I never even have to touch this page. In fact, editing all of this is as easy as filling out a form. It's true! Take a look: 
+Look familiar? That's right...this blog template was with Liquid which is similar to ERB in that it allows for dynamic page manipulation. That snippet above? It's basically my blog homepage, minus the header and footer. In fact this little bit of code creates a page with endless possibilities (no lengthy conditionals necessary!) and I never even have to touch this page. In fact, editing all of this is as easy as filling out a form. It's true! Take a look: 
 
 {% gist sim1hill/1e4cc342917739c56b2f %}
 
-That's basically all I needed to populate a ton of files across my blog. 
+
+
+That's basically all I needed to populate a ton of files across my blog. This is made possible by a parsing engine gem called Jekyll. 
 
 Despite being just a series of files with styles, templates, photos and files with a handfull of different file types when I started digging in I realized that it is eerily similar to using a CMS (more on that in a bit!). I made my discovery on the same day that we started learning ERB, which means that luckily I was able to make some sense of what this is and learn a bit more about why ERB makes Ruby so powerful. It got me thinking about ERB and the practical applications of being able to make dynamic webpages and why it's great for creating things like easy to use blog templates. 
 

@@ -16,16 +16,16 @@ Turns out this was not the most efficient route. At all. What I first imagined t
 Much like a cat riding a roomba, while I did eventually do some cleaning it was a slow process I mostly ended up in stuck going in circles. I felt confused and all-powerful at the same time. At first I was tentative, but then I just went with it. Before I jump into the code, these gifs will give you a good idea of what the experience was like (and cats are far cuter and more entertaining than the code).
 
 <figure>
- <img src="/images/cat-riding-roomba" alt="cat riding a roomba in a shark costume">
+ <img src="/images/cat-riding-roomba.gif" alt="cat riding a roomba in a shark costume">
 </figure>
 <figure>
- <img src="/images/cat-riding-roomba-2" alt="cat riding a roomba">
+ <img src="/images/cat-riding-roomba-2.gif" alt="cat riding a roomba">
 </figure>
 <figure>
- <img src="/images/cat-riding-roomba-3" alt="a bunch of kittens riding on a roomba">
+ <img src="/images/cat-riding-roomba-3.gif" alt="a bunch of kittens riding on a roomba">
 </figure>
 <figure>
- <img src="/images/cat-riding-roomba-4" alt="cat in box riding a roomba">
+ <img src="/images/cat-riding-roomba-4.gif" alt="cat in box riding a roomba">
 </figure>
 
 ##Step 1. File and FileUtils Objects

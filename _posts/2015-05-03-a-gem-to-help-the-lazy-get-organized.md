@@ -5,7 +5,9 @@ excerpt: "A lazy lady cleans up her files with code!"
 tags: [script, Ruby, methods]
 comments: true
 ---
-
+<figure>
+ <img src="/images/mrs-doubtfire.gif" alt="mrs.doubtfire vacumming">
+</figure>
 To say I'm a messy person is an understatement. I may look polished and put together most days (okay, some days) but the same cannot be said for just about everything else in my life. Try as I might to keep my living and working space in order, everything inevitably unravels shortly thereafter. My digital footprint is much the same and all the labs I've cloned for Flatiron haven't helped. That's how I came up with the idea to write a script. I became enamored with the idea after Steven mentioned that he wrote scripts for just about everything. Oh and also I didn't want to do anymore rails labs or reading, so I guess coding is how I procrastinate now. 
 
 Normally, I'd spend an hour or two taking care of this with an elaborate system of filenames and folders to try and reign in the madness. But I figured now that I'm a programmer in training I'd write a simple program to do it for me. 
@@ -27,7 +29,7 @@ Much like a cat riding a roomba, while I did eventually do some cleaning it was 
  <img src="/images/cat-riding-roomba-4.gif" alt="cat in box riding a roomba">
 </figure>
 
-Gem Name: Get Organized(it's lame, I know, so I'm taking suggestions for better names! <a href="https://rubygems.org/gems/roomba" target=_new>Roomba</a> is taken, but maybe File Roomba?)
+Gem Name: Get Organized(it's lame, I know, so I'm taking suggestions for better names! Roomba is taken, but maybe File Roomba?)
 
 Snippet: A simple script to organize your cluttered directory by date so that they're easier to find. 
 
@@ -49,6 +51,12 @@ When I sat down and started to write this code one of the hardest concept to gra
 
 {% gist sim1hill/6b1b4f0d2faff8502401 %}
 
-##Step 2. Define a Structure
+##Step 2. Defining a Structure
 
-Previously, the only things I'd built had been labs which are written and driven by someone else's design. So I started the only way I knew how, with one class called Get Organized. I thought the logic would be simple enough, but all of my class methods and helper methods quickly grew to a point that would make Sandi Metz very, very upset. I structured my gem in three classes, but the design was really dictated by the challenges I faced which I now know is probably not the best way to do it. 
+Previously, the only things I'd built had been labs which are written and driven by someone else's design. So I started the only way I knew how, with one class called Get Organized. I thought the logic would be simple enough, but all of my class methods and helper methods quickly grew to a point that would make Sandi Metz very, very upset. I structured my gem in three classes, but the design was really dictated by the challenges I faced and the order in which I completed each feature which I now know is probably not the best way to do it. What I ended up with were three classes, one to handle the creation of month folders, one to trigger the creation of week folders and a runner to start the month folder. The idea was to loop these together so you run it once and it takes care of all the files in the current working directory -- but this is still a work in progress.
+
+##Step 3. 
+
+##Step 4. Overcoming Challenges
+
+##Step 5. 

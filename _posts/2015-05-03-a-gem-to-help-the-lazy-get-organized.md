@@ -55,8 +55,20 @@ When I sat down and started to write this code one of the hardest concept to gra
 
 Previously, the only things I'd built had been labs which are written and driven by someone else's design. So I started the only way I knew how, with one class called Get Organized. I thought the logic would be simple enough, but all of my class methods and helper methods quickly grew to a point that would make Sandi Metz very, very upset. I structured my gem in three classes, but the design was really dictated by the challenges I faced and the order in which I completed each feature which I now know is probably not the best way to do it. What I ended up with were three classes, one to handle the creation of month folders, one to trigger the creation of week folders and a runner to start the month folder. The idea was to loop these together so you run it once and it takes care of all the files in the current working directory -- but this is still a work in progress.
 
-##Step 3. 
+##Step 3. Looping the Script 
+
+When I first started learning Ruby understanding how classes talk to each other was initially one of the most confusing topics for me. Now, I honestly can't think of a way to do this without classes. While I could definitely write some of the run methods procedurally it's really the looping that required calling to other methods. The chain of command is
+
+RunGetOrganized.new > GetOrganizedByMonth.new(Dir.glob("*") > GetOrganizedByWeek.new(Dir.glob("*")).search_files > RunGetOrganized.next
+
+{% gist sim1hill/8e24516c9bd3a4488a18 %}
 
 ##Step 4. Overcoming Challenges
 
+Still working on this...to be continued!
+
 ##Step 5. 
+
+If you'd like to take a look at all the code see it here. 
+
+https://github.com/sim1hill/get-organized/tree/testing

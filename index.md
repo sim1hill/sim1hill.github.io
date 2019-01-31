@@ -1,9 +1,0 @@
----
-layout: home
-excerpt: "Simone learns to code."
-tags: [Jekyll, theme, responsive, blog, template]
-image:
-  feature: cover_photo.jpg
-  credit: Photo - Simone Hill, Wall Art - Ryan McGinness
-  creditlink: http://thewynwoodwalls.com/Wynwood-Walls-Artists/Ryan-McGinness.asp
----
